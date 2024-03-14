@@ -1,0 +1,10 @@
+{
+  "bootloader": "rp2040",
+  "matrix_pins": {
+    "cols": ["GP18", "GP24", "GP10", "GP0", "GP1", "GP2", "GP25", "GP16", "GP11", "GP29", "GP28", "GP27", "GP26", "GP22"],
+    "rows": ["GP3", "GP20", "GP4", "GP13", "GP15", "GP12", "GP21", "GP14", "GP6", "GP5", "GP23", "GP7", "GP9", "GP8"]
+  },
+  "processor": "RP2040"
+}
+
+
