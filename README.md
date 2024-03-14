@@ -7,10 +7,6 @@ Due to its diodeless-ness, the JESK56 is ideal for the custom keyboard community
 <img src="https://github.com/triliu/JESK56/assets/3928134/cca97c47-b7c1-420f-9098-3839783bdc04" width="380">
 <img src="https://github.com/triliu/JESK56/assets/3928134/03baaf90-4083-4bb8-b3fc-9f85ba9a2aec" width="380">
 
-![Full Keyboard](https://github.com/triliu/JESK56/assets/3928134/cca97c47-b7c1-420f-9098-3839783bdc04 | height = 100px)
-![PCB_only](https://github.com/triliu/JESK56/assets/3928134/03baaf90-4083-4bb8-b3fc-9f85ba9a2aec | width=10)
-
-
 ## Why 'JESK'?
 
 Typical mechanical keyboards arrange their keys in a grid pattern. In such a grid, there are cycles of four keys. If no diodes were used and three keys of a four-key cycle were pressed, the keyboard would act like all four keys were being pressed. See https://pcbheaven.com/wikipages/How_Key_Matrices_Works/ for an explainer of this phenomenon. By adding a diode to every key, the keyboard becomes "n-key rollover", meaning that the keyboard can theoretically distinguish all combinations of keypresses. In software, however, 6-key rollover is typically used, meaning the software assumes that if more than six keys are being pressed, then keys were pressed on accident. The USB keyboard protocol is limited to a 6-key rollover. 
