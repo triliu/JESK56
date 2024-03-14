@@ -18,6 +18,7 @@ In graph theory, it is possible to make graphs that do not contain small cycles.
 
 For more details on this graph, see [House of Graphs](https://houseofgraphs.org/graphs/49998). This converts to a key matrix with just a 4-key rollover. However, by designing the board specifically, all problematic 5-key and 6-key sequences may be practically eliminated, giving the JESK56. 
 
+This design is powered using an RP2040-powered microcontroller with 28 pins. I suggest the 16M version of the following: See https://www.aliexpress.com/item/1005006130019224.html
 ## What files are here
 - Gerber files for production
 - QMK firmware

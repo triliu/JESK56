@@ -1,0 +1,84 @@
+{
+  "manufacturer": "Trent G. Marbach",
+  "keyboard_name": "JESK56",
+  "maintainer": "triliu",
+  "diode_direction": "COL2ROW",
+  "features": {
+    "bootmagic": true,
+    "extrakey": true,
+    "mousekey": true,
+    "nkro": true
+  },
+  "url": "https://github.com/triliu/JESK56",
+  "usb": {
+    "device_version": "1.0.0",
+    "pid": "0x7685",
+    "vid": "0x4273"
+  },
+  "layouts": {
+    "LAYOUT": {
+      "layout": [
+        {"label": "Key Esc", "matrix": [0, 0], "x": 0, "y": 0},   
+        {"label": "Key 1", "matrix": [0, 1], "x": 1, "y": 0},
+        {"label": "Key 2", "matrix": [0, 2], "x": 2, "y": 0},
+        {"label": "Key 3", "matrix": [0, 3], "x": 3, "y": 0},   
+        {"label": "Key 4", "matrix": [2, 4], "x": 4, "y": 0}, 
+        {"label": "Key 5", "matrix": [2, 5], "x": 5, "y": 0},
+        {"label": "Key 6", "matrix": [8, 8], "x": 7, "y": 0},
+        {"label": "Key 7", "matrix": [9, 9], "x": 8, "y": 0},
+        {"label": "Key 8", "matrix": [1, 10], "x": 9, "y": 0},
+        {"label": "Key 9", "matrix": [1, 11], "x": 10, "y": 0},
+        {"label": "Key 0", "matrix": [1, 12], "x": 11, "y": 0},
+        {"label": "Key Backspace", "matrix": [1, 13], "x": 12, "y": 0},
+
+        {"label": "Key Tab", "matrix": [2, 0], "x": 0, "y": 1}, 
+        {"label": "Key Q", "matrix": [10, 1], "x": 1, "y": 1}, 
+        {"label": "Key W", "matrix": [8, 2], "x": 2, "y": 1},    
+        {"label": "Key E", "matrix": [9, 3], "x": 3, "y": 1}, 
+        {"label": "Key R", "matrix": [8, 4], "x": 4, "y": 1},
+        {"label": "Key T", "matrix": [9, 5], "x": 5, "y": 1},
+        {"label": "Key Y", "matrix": [10, 8], "x": 7, "y": 1},
+        {"label": "Key U", "matrix": [11, 9], "x": 8, "y": 1},
+        {"label": "Key I", "matrix": [2, 10], "x": 9, "y": 1},
+        {"label": "Key O", "matrix": [9, 11], "x": 10, "y": 1},
+        {"label": "Key P", "matrix": [11, 12], "x": 10, "y": 1},
+        {"label": "Key Backslash", "matrix": [10, 13], "x": 11, "y": 1},
+
+        {"label": "Key Left Shift", "matrix": [6, 0], "x": 0, "y": 2},
+        {"label": "Key A", "matrix": [11, 1], "x": 1, "y": 2},
+        {"label": "Key S", "matrix": [13, 2], "x": 2, "y": 2},
+        {"label": "Key D", "matrix": [12, 3], "x": 3, "y": 2},
+        {"label": "Key F", "matrix": [11, 4], "x": 4, "y": 2},
+        {"label": "Key G", "matrix": [10, 5], "x": 5, "y": 2},    
+        {"label": "Key H", "matrix": [5, 8], "x": 6, "y": 2},
+        {"label": "Key J", "matrix": [6, 9], "x": 7, "y": 2},
+        {"label": "Key K", "matrix": [4, 10], "x": 8, "y": 2},
+        {"label": "Key L", "matrix": [8, 11], "x": 9, "y": 2},
+        {"label": "Key ;", "matrix": [13, 12], "x": 10, "y": 2},
+        {"label": "Key Quotation", "matrix": [12, 13], "x": 11, "y": 2},
+        
+        {"label": "Key Left Ctrl", "matrix": [5, 0], "x": 0, "y": 3},
+        {"label": "Key Z", "matrix": [7, 1], "x": 1, "y": 3},
+        {"label": "Key X", "matrix": [4, 2], "x": 2, "y": 3},
+        {"label": "Key C", "matrix": [3, 3], "x": 3, "y": 3},
+        {"label": "Key V", "matrix": [12, 4], "x": 4, "y": 3},
+        {"label": "Key B", "matrix": [13, 5], "x": 5, "y": 3},    
+        {"label": "Key N", "matrix": [3, 8], "x": 6, "y": 3},
+        {"label": "Key M", "matrix": [4, 9], "x": 7, "y": 3},
+        {"label": "Key ,", "matrix": [3, 10], "x": 8, "y": 3},
+        {"label": "Key .", "matrix": [7, 11], "x": 9, "y": 3},
+        {"label": "Key /", "matrix": [5, 12], "x": 10, "y": 3},
+        {"label": "Key Bottom-Right", "matrix": [6, 13], "x": 11, "y": 3},
+
+        {"label": "Key Thumb 1", "matrix": [7, 6], "x": 0, "y": 2.5},   
+        {"label": "Key Thumb 2", "matrix": [6, 6], "x": 3.5, "y": 4.15},  
+        {"label": "Key Thumb 3", "matrix": [3, 6], "x": 4, "y": 0.125},       
+        {"label": "Key Space 1", "matrix": [13, 6], "x": 11, "y": 4.25},
+        {"label": "Key Space 2", "matrix": [7, 7], "x": 11, "y": 4.25},
+        {"label": "Key Thumb 4", "matrix": [5, 7], "x": 11, "y": 4.25},
+        {"label": "Key Thumb 5", "matrix": [4, 7], "x": 12, "y": 4.15},
+        {"label": "Key Thumb 6", "matrix": [12, 7], "x": 13, "y": 4.15}
+      ]
+    }
+  }
+}
