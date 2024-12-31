@@ -22,6 +22,8 @@ This design is powered using an RP2040-powered microcontroller with 28 pins. I s
 
 EDIT: I've used this one for VIAL build: 
 https://www.aliexpress.com/item/1005006130019224.html
+QMK files updated accordingly 
+After adding jesk56n to keyboard folder it should work with ~make jesk56n:vial~
 
 ## What files are here
 - Gerber files for production
