@@ -1,0 +1,89 @@
+{
+    "manufacturer": "Trent G. Marbach",
+    "keyboard_name": "JESK56",
+    "maintainer": "triliu",
+    "bootloader": "rp2040",
+    "matrix_pins": {
+        "cols": [ "GP18", "GP24", "GP25", "GP11", "GP10", "GP16", "GP0", "GP27", "GP28", "GP1", "GP29", "GP22", "GP2", "GP26" ],
+        "rows": [ "GP3", "GP14", "GP13", "GP6", "GP15", "GP9", "GP5", "GP20", "GP4", "GP7", "GP21", "GP23", "GP8", "GP12" ]
+    },
+    "processor": "RP2040","diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "nkro": true
+    },
+    "url": "https://github.com/triliu/JESK56",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x4A56",
+        "vid": "0x544D"
+    },
+    "matrix": {
+        "rows": 14,
+        "cols": 14
+    },
+    "lighting": "none",
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "label": "Key Esc", "matrix": [ 0, 0 ], "x": 0, "y": 0 },
+                { "label": "Key 1", "matrix": [ 0, 1 ], "x": 1, "y": 0 },
+                { "label": "Key 2", "matrix": [ 0, 4 ], "x": 2, "y": 0 },
+                { "label": "Key 3", "matrix": [ 0, 6 ], "x": 3, "y": 0 },
+                { "label": "Key 4", "matrix": [ 8, 9 ], "x": 4, "y": 0 },
+                { "label": "Key 5", "matrix": [ 8, 12 ], "x": 5, "y": 0 },
+                { "label": "Key 6", "matrix": [ 3, 3 ], "x": 7, "y": 0 },
+                { "label": "Key 7", "matrix": [ 6, 10 ], "x": 8, "y": 0 },
+                { "label": "Key 8", "matrix": [ 7, 8 ], "x": 9, "y": 0 },
+                { "label": "Key 9", "matrix": [ 7, 7 ], "x": 10, "y": 0 },
+                { "label": "Key 0", "matrix": [ 7, 13 ], "x": 11, "y": 0 },
+                { "label": "Key Backspace", "matrix": [ 7, 11 ], "x": 12, "y": 0 },
+                { "label": "Key Tab", "matrix": [ 8, 0 ], "x": 0, "y": 1 },
+                { "label": "Key Q", "matrix": [ 11, 1 ], "x": 1, "y": 1 },
+                { "label": "Key W", "matrix": [ 3, 4 ], "x": 2, "y": 1 },
+                { "label": "Key E", "matrix": [ 6, 6 ], "x": 3, "y": 1 },
+                { "label": "Key R", "matrix": [ 3, 9 ], "x": 4, "y": 1 },
+                { "label": "Key T", "matrix": [ 6, 12 ], "x": 5, "y": 1 },
+                { "label": "Key Y", "matrix": [ 11, 3 ], "x": 7, "y": 1 },
+                { "label": "Key U", "matrix": [ 9, 10 ], "x": 8, "y": 1 },
+                { "label": "Key I", "matrix": [ 8, 8 ], "x": 9, "y": 1 },
+                { "label": "Key O", "matrix": [ 6, 7 ], "x": 10, "y": 1 },
+                { "label": "Key P", "matrix": [ 9, 13 ], "x": 10, "y": 1 },
+                { "label": "Key Backslash", "matrix": [ 11, 11 ], "x": 11, "y": 1 },
+                { "label": "Key Left Shift", "matrix": [ 10, 0 ], "x": 0, "y": 2 },
+                { "label": "Key A", "matrix": [ 9, 1 ], "x": 1, "y": 2 },
+                { "label": "Key S", "matrix": [ 12, 4 ], "x": 2, "y": 2 },
+                { "label": "Key D", "matrix": [ 5, 6 ], "x": 3, "y": 2 },
+                { "label": "Key F", "matrix": [ 9, 9 ], "x": 4, "y": 2 },
+                { "label": "Key G", "matrix": [ 11, 12 ], "x": 5, "y": 2 },
+                { "label": "Key H", "matrix": [ 13, 3 ], "x": 6, "y": 2 },
+                { "label": "Key J", "matrix": [ 10, 10 ], "x": 7, "y": 2 },
+                { "label": "Key K", "matrix": [ 4, 8 ], "x": 8, "y": 2 },
+                { "label": "Key L", "matrix": [ 3, 7 ], "x": 9, "y": 2 },
+                { "label": "Key ;", "matrix": [ 12, 13 ], "x": 10, "y": 2 },
+                { "label": "Key Quotation", "matrix": [ 5, 11 ], "x": 11, "y": 2 },
+                { "label": "Key Left Ctrl", "matrix": [ 13, 0 ], "x": 0, "y": 3 },
+                { "label": "Key Z", "matrix": [ 1, 1 ], "x": 1, "y": 3 },
+                { "label": "Key X", "matrix": [ 4, 4 ], "x": 2, "y": 3 },
+                { "label": "Key C", "matrix": [ 2, 6 ], "x": 3, "y": 3 },
+                { "label": "Key V", "matrix": [ 5, 9 ], "x": 4, "y": 3 },
+                { "label": "Key B", "matrix": [ 12, 12 ], "x": 5, "y": 3 },
+                { "label": "Key N", "matrix": [ 2, 3 ], "x": 6, "y": 3 },
+                { "label": "Key M", "matrix": [ 4, 10 ], "x": 7, "y": 3 },
+                { "label": "Key ,", "matrix": [ 2, 8 ], "x": 8, "y": 3 },
+                { "label": "Key .", "matrix": [ 1, 7 ], "x": 9, "y": 3 },
+                { "label": "Key /", "matrix": [ 13, 13 ], "x": 10, "y": 3 },
+                { "label": "Key Bottom-Right", "matrix": [ 10, 11 ], "x": 11, "y": 3 },
+                { "label": "Key Thumb 1", "matrix": [ 1, 2 ], "x": 0, "y": 2 },
+                { "label": "Key Thumb 2", "matrix": [ 10, 2 ], "x": 3, "y": 4 },
+                { "label": "Key Thumb 3", "matrix": [ 2, 2 ], "x": 4, "y": 0 },
+                { "label": "Key Space 1", "matrix": [ 12, 2 ], "x": 11, "y": 4 },
+                { "label": "Key Space 2", "matrix": [ 1, 5 ], "x": 11, "y": 4 },
+                { "label": "Key Thumb 4", "matrix": [ 13, 5 ], "x": 11, "y": 4 },
+                { "label": "Key Thumb 5", "matrix": [ 4, 5 ], "x": 12, "y": 4 },
+                { "label": "Key Thumb 6", "matrix": [ 5, 5 ], "x": 13, "y": 4 }
+            ]
+        }
+    }
+}
